@@ -65,7 +65,7 @@ header nav ul li a {
     width: 50%;
     margin-left: 500px;
     padding: 50px;
-    height: 300px;
+    height: 700px;
     background-color: #cdd4c6;
     color: #2d3128;
     background: rgba(213, 231, 202, 0.7);
@@ -83,9 +83,17 @@ a:hover {
     text-shadow: 0 0 3px #270752, 0 0 15px #0c4235;
   }
 
+img {
+    width: 300px;
+    height: 140px;
+    margin-left: 75px;
+}
+
+
 a img{
-    width: 150px;
-    height: 70px;
+    width: 600px;
+    height: 280px;
+    margin-left: 125px;
 }
 
 
