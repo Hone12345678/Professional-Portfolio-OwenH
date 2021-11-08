@@ -10,6 +10,7 @@
  
 }
 body {
+    
     background-image: url('../assets/images/wind-river-range-Trail.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,14 +42,13 @@ header nav ul {
     align-items: center;
     justify-content: space-evenly;
     list-style: none;
-    padding-top: 50px;
+    padding-top: 275px;
+    padding-bottom: 180px;
     color: whitesmoke;
   }
 
 header h1 a {
     color: whitesmoke;
-
-
 }
 
 header nav ul li a {
@@ -57,24 +57,57 @@ header nav ul li a {
     
 }
 
+.header-links a img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 
   .AboutMe-Writeup {
     margin-top: 5%;
     margin-bottom: 25%;
     width: 50%;
-    margin-left: 500px;
     padding: 50px;
+    margin-left: 25%;
     height: 700px;
     background-color: #cdd4c6;
     color: #2d3128;
     background: rgba(213, 231, 202, 0.7);
     border-radius: 30px;
+    
 }
 
+.MyWork-Writeup {
+    margin-top: 5%;
+    margin-bottom: 25%;
+    width: 50%;
+    margin-left: 25%;
+    padding: 25px;
+    height: 700px;
+    background-color: #cdd4c6;
+    color: #2d3128;
+    background: rgba(213, 231, 202, 0.7);
+    border-radius: 30px;
+    
+} 
+
+.MyWork-Writeup h3{
+    text-align: center;
+}
+
+.MyWork-Writeup h4{
+    text-align: center;
+}
+
+
+
+
  h2 {
-    padding-top: 10%;
-    padding-left: 890px;
+    text-align: center;
     color: whitesmoke;
     text-shadow: 0 0 3px #161515, 0 0 5px #0000FF;
 }
@@ -84,21 +117,22 @@ a:hover {
   }
 
 img {
-    width: 300px;
-    height: 140px;
-    margin-left: 75px;
+    object-fit: contain;
 }
 
-
-a img{
-    width: 600px;
-    height: 280px;
-    margin-left: 125px;
+.myWork_Links img{
+    height: 25%;
+    width: 25%;
 }
 
+.bigImg a img{
+    height: 75%;
+    width: 75%;
+}
 
-a img:hover {
-    transform: scale(1.5);
+    
+.bigImg a img:hover {
+    transform: scale(1.05);
 
 }
 
