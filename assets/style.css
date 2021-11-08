@@ -9,6 +9,7 @@
     
  
 }
+
 /* "*" Section applies to all*/
  
 
@@ -45,7 +46,6 @@ header {
     color: whitesmoke;
 }
 
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +55,7 @@ header nav ul {
     padding-top: 275px;
     padding-bottom: 400px;
     color: whitesmoke;
-  }
+}
 
 header h1 a {
     color: whitesmoke;
@@ -68,7 +68,7 @@ header nav ul li a {
 }
 
 .image-header{
-    padding: 40px;
+  padding: 40px;
   text-align: center;
   background: #13293d;
   color: #fff;
@@ -154,6 +154,9 @@ footer h2{
 }
 /* end  footer section  end */
 
+
+/* start  allow for mobile formatting  start */
+
 @media screen and (max-width: 575px) {
  
     .Writeup {
@@ -184,5 +187,7 @@ footer h2{
         }
    
  }
+
+ /* end  allow for mobile formatting  end */
 
 /* END*/
