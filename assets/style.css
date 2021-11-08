@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Helvica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Monaco', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     
     
@@ -43,7 +43,7 @@ header nav ul {
     justify-content: space-evenly;
     list-style: none;
     padding-top: 275px;
-    padding-bottom: 180px;
+    padding-bottom: 400px;
     color: whitesmoke;
   }
 
@@ -57,12 +57,19 @@ header nav ul li a {
     
 }
 
+.image-header{
+    padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+
+}
 .header-links a img {
     width: 140px;
     height: 140px;
     border-radius: 100px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto;;
 }
 
 
@@ -97,14 +104,13 @@ header nav ul li a {
 
 .MyWork-Writeup h3{
     text-align: center;
+    margin: auto;
 }
 
 .MyWork-Writeup h4{
     text-align: center;
+    margin: auto;
 }
-
-
-
 
  h2 {
     text-align: center;
@@ -117,12 +123,24 @@ a:hover {
   }
 
 img {
-    object-fit: contain;
+    object-fit: contain;   
+}
+
+.myWork_Links{
+float: center;    
+margin: 0 0 0 30px;
+font-size: small;
+font-weight: bold;
+
+
 }
 
 .myWork_Links img{
+    float: center;    
+    margin: 0 0 0 15px;
     height: 25%;
     width: 25%;
+    
 }
 
 .bigImg a img{
